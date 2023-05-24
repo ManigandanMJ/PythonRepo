@@ -1,5 +1,5 @@
 import logging
-logging.basicConfig(filename = "c:\\logs\\condition_log.log",filemode ='w',)
+logging.basicConfig(filename = "c:\\logs\\list_log.log",filemode ='w',)
 log = logging.getLogger()
 log.setLevel(logging.DEBUG)
 def list_methods():
