@@ -1,28 +1,28 @@
 def list_methods():
-    N = int(input())
-    arr = []
-    for i in range(N):
-        line = input().split()
-        command = line[0]
+    num = int(input("Enter Number of entries : "))
+    list_1 = []
+    for i in range(num):
+        l = input().split()
+        option = l[0]
 
-        if command == 'insert':
-            arr.insert(int(line[1]), int(line[2]))
+        if option == 'insert':
+            list_1.insert(int(l[1]), int(l[2]))
 
-        elif command == 'print':
-            print(arr)
+        elif option == 'print':
+            print(list_1)
 
-        elif command == 'remove':
-            arr.remove(int(line[1]))
+        elif option == 'remove':
+            list_1.remove(int(l[1]))
 
-        elif command == 'append':
-            arr.append(int(line[1]))
+        elif option == 'append':
+            list_1.append(int(l[1]))
 
-        elif command == 'sort':
-            arr.sort()
+        elif option == 'sort':
+            list_1.sort()
 
-        elif command == 'pop':
-            arr.pop()
+        elif option == 'pop':
+            list_1.pop()
 
         else:  # reverse
-            arr.reverse()
-    return arr
+            list_1.reverse()
+    return list_1
