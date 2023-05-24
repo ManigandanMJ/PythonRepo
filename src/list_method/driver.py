@@ -1,26 +1,3 @@
-N = int(input())
-arr = []
-for i in range(N):
-    line = input().split()
-    command = line[0]
+from src.list_method.utils import *
 
-    if command == 'insert':
-        arr.insert(int(line[1]), int(line[2]))
-
-    elif command == 'print':
-        print(arr)
-
-    elif command == 'remove':
-        arr.remove(int(line[1]))
-
-    elif command == 'append':
-        arr.append(int(line[1]))
-
-    elif command == 'sort':
-        arr.sort()
-
-    elif command == 'pop':
-        arr.pop()
-
-    else:  # reverse
-        arr.reverse()
+list_methods()
