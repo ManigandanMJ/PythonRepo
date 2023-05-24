@@ -1,6 +1,5 @@
 import unittest
 from src.calendar_module.utils import *
-
 class MyTestCase(unittest.TestCase):
     def test_something(self):
         actual_input = calendar_module()
