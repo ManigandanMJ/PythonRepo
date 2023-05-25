@@ -1,4 +1,4 @@
-
+# To change the tuple string to mutable
 def mutation(position,new_char):
     old_str = 'abracadabra'
     str_list = list(old_str)
