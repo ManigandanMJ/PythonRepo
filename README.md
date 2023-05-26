@@ -1,6 +1,6 @@
-Python assignments
+**Python assignments**
 
-Question-1
+**Question-1**
 Date is given as input and output needs to be only day of given date in capitalized.
 
      •	Imported logging for using Info, warning logs and assigned a file path.
@@ -9,6 +9,6 @@ Date is given as input and output needs to be only day of given date in capitali
      •	Used calender.weekday function to get week day.
      •	And converted as capitalized and printed output.
 
-Question-2
+**Question-2**
 
 
