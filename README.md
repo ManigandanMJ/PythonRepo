@@ -1,7 +1,7 @@
 **Python assignments**
 
 **Question-1
-(Iterators_Iterables)**
+(Iterators_Iterables)** 
 
 To find the probability that at least one of the K indices selected will contain the letter: 'a' from given list values.
 
