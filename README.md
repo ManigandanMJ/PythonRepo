@@ -1,7 +1,7 @@
 **Python assignments**
 
-Question-1
-(Iterators_Iterables)
+**Question-1
+(Iterators_Iterables)**
 
 To find the probability that at least one of the K indices selected will contain the letter: 'a' from given list values.
 
@@ -14,16 +14,18 @@ To find the probability that at least one of the K indices selected will contain
      •	Found probability value by dividing count/ length of letters.
      •	Using test case verified catual input and expected output was passed.
 
-Question-2
-(Calendar_module)
+**Question-2
+(Calendar_module)**
+
 Date is given as input and output needs to be only day of given date in capitalized.
+
      •	Imported logging for using Info, warning logs and assigned a file path.
      •	Created a function for calendar module.
      •	Received the date as input and assigned it to day, month, and year.
      •	Used calender.weekday function to get week day.
-•	And converted as capitalized and printed output, called funtion in driver file.
+     •	And converted as capitalized and printed output, called funtion in driver file.
 
-•	Verified  the actual input with expected output is passed in testcase file.
+     •	Verified  the actual input with expected output is passed in testcase file.
 
 Question-3
  (Floor, ceil, rint)
