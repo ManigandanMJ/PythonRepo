@@ -1,11 +1,11 @@
 **Python assignments**
 
-**Question-1
-(Iterators_Iterables)**
+**Question-1**
 
+(Iterators_Iterables)
 To find the probability that at least one of the K indices selected will contain the letter: 'a' from given list values.
--	Imported the itertools library to use combinations method.
--Used loggers for logging the information and warnings.
+•	Imported the itertools library to use combinations method.
+•	Used loggers for logging the information and warnings.
 •	Defined  a function named iterables() to perform Iterables combination.
 •	Given ‘n’ , ‘k’ and list values in a variable letters.
 •	Converted a combination values using combination( ) method.
@@ -13,7 +13,8 @@ To find the probability that at least one of the K indices selected will contain
 •	Found probability value by dividing count/ length of letters.
 •	Using test case verified catual input and expected output was passed.
 
-Question-2
+**Question-2**
+
 (Calendar_module)
 Date is given as input and output needs to be only day of given date in capitalized.
      •	Imported logging for using Info, warning logs and assigned a file path.
