@@ -1,7 +1,14 @@
+import logging
+logging.basicConfig(filename = "c:\\logs\\mail_log.log",filemode ='w',)
+log = logging.getLogger()
+log.setLevel(logging.DEBUG)
+
 def validate_mail():
-    list_mail,list_1 = [],[]
+    log.info("Validating mail Id")
+    list_mail = []
     print(type(list_mail))
     for i in range(3):
+        log.info("Getting Mail ID's for validation")
         s = input("Enter mail Id : ")
         if s.count('@') != 1:
             print("not valid")
@@ -29,6 +36,7 @@ def validate_mail():
                     if not t.isalnum():
                         print("not valid")
         list_mail[i] = list_mail.append(s)
+        log.warning("Mail Id's valid")
         print("valid",s)
     return print(list_mail)
 
