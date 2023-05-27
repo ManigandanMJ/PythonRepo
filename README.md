@@ -4,6 +4,7 @@ Question-1
 (Iterators_Iterables)
 
 To find the probability that at least one of the K indices selected will contain the letter: 'a' from given list values.
+
      •	Imported the itertools library to use combinations method.
      •	Used loggers for logging the information and warnings.
      •	Defined  a function named iterables() to perform Iterables combination.
